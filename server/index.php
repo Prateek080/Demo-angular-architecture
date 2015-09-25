@@ -1,7 +1,6 @@
 <?php 
 
 print "asdasda";
-#author : chowmean
 $data["user"]="just testing";
 CallAPI("POST","http://192.168.68.189/api/v1.0/post_req",$data,"deviceId","accessToken","application/json","firefox");
 
